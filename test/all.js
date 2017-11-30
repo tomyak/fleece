@@ -3,7 +3,7 @@
 
 exports['test simple wrapper'] = function(assert, done) {
 
-  const lambdawrap = require('fleece')
+  const lambdawrap = require('lambswool')
   var testmodule={
     exports:{
       foo : (event,context,cb) =>{
@@ -33,7 +33,7 @@ exports['test simple wrapper'] = function(assert, done) {
 
 exports['test exception wrapper'] = function(assert, done) {
 
-  const lambdawrap = require('fleece')
+  const lambdawrap = require('lambswool')
   var testmodule={
     exports:{
       foo : (event,context,cb) =>{
