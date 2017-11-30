@@ -1,0 +1,13 @@
+{
+  "name": "fleece",
+  "version": "1.0.0",
+  "description": "Wrap AWS Lambda handlers with promises or functions. Convenient for warmup protection",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "devDependencies": { "test": ">=0.0.5" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
