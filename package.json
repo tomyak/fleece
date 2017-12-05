@@ -1,6 +1,6 @@
 {
   "name": "lambswool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap AWS Lambda handlers with promises or functions. Convenient for warmup protection",
   "main": "index.js",
   "scripts": {
